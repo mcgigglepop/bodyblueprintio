@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 const NavList = styled.ul`
   display: flex;
@@ -6,7 +7,7 @@ const NavList = styled.ul`
   gap: 0.8rem;
 `;
 
-const Link = styled.a`
+const StyledNavLink = styled(NavLink)`
   &:link,
   &:visited {
     display: flex;
@@ -48,7 +49,9 @@ const Link = styled.a`
 function MainNav() {
   return (
     <nav>
-      Nav
+      <NavList>
+        <StyledNavLink to="/dashboard">Dashboard</StyledNavLink>
+      </NavList>
     </nav>
   );
 }
