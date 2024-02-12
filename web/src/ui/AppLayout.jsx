@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Sidebar from "../pages/Sidebar";
+import Sidebar from "./Sidebar";
 import Header from "./Header";
 import styled from "styled-components";
 
@@ -12,6 +12,7 @@ const StyledAppLayout = styled.div`
 
 const Main = styled.main`
   padding: 4rem 4.8rem 6.4rem;
+  background-color: var(--color-grey-50);
 `;
 
 function AppLayout() {
