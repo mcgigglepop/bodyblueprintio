@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import { HiOutlineCog6Tooth, HiOutlineHome } from "react-icons/hi2";
+import { HiOutlineCog6Tooth, HiOutlineHome  } from "react-icons/hi2";
+import { BiCabinet } from "react-icons/bi";
 
 const NavList = styled.ul`
   display: flex;
@@ -53,6 +54,9 @@ function MainNav() {
       <NavList>
         <li>
           <StyledNavLink to="/dashboard"><HiOutlineHome /><span>Dashboard</span></StyledNavLink>
+        </li>
+        <li>
+          <StyledNavLink to="/archives"><BiCabinet  /><span>My Archives</span></StyledNavLink>
         </li>
         <li>
           <StyledNavLink to="/settings"><HiOutlineCog6Tooth /><span>Settings</span></StyledNavLink>
