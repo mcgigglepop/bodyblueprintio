@@ -56,7 +56,7 @@ function MainNav() {
           <StyledNavLink to="/dashboard"><HiOutlineHome /><span>Dashboard</span></StyledNavLink>
         </li>
         <li>
-          <StyledNavLink to="/archives"><BiCabinet  /><span>My Archives</span></StyledNavLink>
+          <StyledNavLink to="/collections"><BiCabinet  /><span>Collections</span></StyledNavLink>
         </li>
         <li>
           <StyledNavLink to="/settings"><HiOutlineCog6Tooth /><span>Settings</span></StyledNavLink>
